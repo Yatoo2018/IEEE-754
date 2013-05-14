@@ -22,7 +22,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
   <head>
-    <title>IEEE-754 Analysis</title>
+    <title>IEEE-754 分析</title>
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" href="css/analyzer.min.css" />
     <style type='text/css'>
@@ -53,21 +53,21 @@
       Fixed several rounding errors.<br/>Partial implementation of keyboard shortcuts.
     </div>
 
-    <h1>IEEE-754 Analysis</h1>
-    <p id='need-js'>You must have JavaScript enabled to do anything with this web page.</p>
+    <h1>IEEE-754 浮点数格式分析</h1>
+    <p id='need-js'>你需要打开 JavaScript 支持。</p>
     <div id='ui-buttons'>
       <nav>
-        <a id='faq' href="../IEEE-754/FAQ">FAQ and previous version</a>
+        <a id='faq' href="../IEEE-754/FAQ">FAQ 以及旧版本归档</a>
       </nav>
-      <button id="add-an-analyzer">Add An Analyzer</button>
-      <button id='kill-all'>Close All Analyzers</button>
+      <button id="add-an-analyzer">添加新的分析</button>
+      <button id='kill-all'>关闭所有分析</button>
     </div>
     <div id="instructions-container">
       <div id="instruction-button">
-        <button id ='show-instructions'>Show Instructions </button>
+        <button id ='show-instructions'>显示说明</button>
       </div>
       <div id='instructions' class="no-instructions">
-        <h2>Instructions</h2>
+        <h2>说明</h2>
         <p>
           This page lets you examine the relationships among binary and decimal numbers and three
           number formats described by the IEEE-754-2008 floating-point standard. You can enter a
@@ -172,22 +172,22 @@
         <div class="identifier"><p>Analyzer 1</p></div>
         <img class='idle loading' id='loading' title="progress" src="images/ajax-loader.gif" alt=""/>
         <fieldset class='input_format'>
-          <legend><span class="analyzerlabel">Input Format</span></legend>
+          <legend><span class="analyzerlabel">输入格式</span></legend>
           <div>
             <input type="radio" name="input-format" value="auto" id="force-auto" checked="checked" />
-            <label for="force-auto">auto</label>
+            <label for="force-auto">自动</label>
           </div>
           <div>
             <input type="radio" name="input-format" value="decimal" id="force-decimal" />
-            <label for="force-decimal">decimal</label>
+            <label for="force-decimal">十进制</label>
           </div>
           <div>
             <input type="radio" name="input-format" value="binary" id="force-binary" />
-            <label for="force-binary">binary</label>
+            <label for="force-binary">二进制</label>
           </div>
           <div>
             <input type="radio" name="input-format" value="hexadecimal" id="force-hexadecimal" />
-            <label for="force-hexadecimal">hexadecimal</label>
+            <label for="force-hexadecimal">十六进制</label>
           </div>
           <div class='input-option'>
             <input  type="checkbox"
@@ -195,36 +195,36 @@
                     name="little-endian" 
                     id="force-little-endian" 
                     disabled="disabled" />
-            <label for="force-little-endian">Hexadecimal is little-endian (right-to-left)</label>
+            <label for="force-little-endian">十六进制 - little-endian (right-to-left)</label>
           </div>
         </fieldset>        
 
         <fieldset class='rounding_format'>
-          <legend><span class="analyzerlabel">Rounding Mode</span></legend>
+          <legend><span class="analyzerlabel">舍入模式</span></legend>
           <div>
             <input  type="radio"
                     name="rounding-format"
                     value="round-nearest-value"
                     id="force-round-nearest-value" checked="checked"  />
-            <label for="force-round-nearest-value">Round to the Nearest Value </label>
+            <label for="force-round-nearest-value">舍入到最近值</label>
           </div>
           <div>
             <input type="radio" name="rounding-format" value="round-zero" id="force-round-zero" />
-            <label for="force-round-zero">Round toward Zero </label>
+            <label for="force-round-zero">朝0方向舍入</label>
           </div>
           <div>
             <input  type="radio"
                     name="rounding-format"
                     value="round-pos-infinity"
                     id="force-round-pos-infinity" />
-            <label for="force-round-pos-infinity">Round toward Positive Infinity </label>
+            <label for="force-round-pos-infinity">朝+∞方向舍入</label>
           </div>
           <div>
             <input  type="radio"
                     name="rounding-format"
                     value="round-neg-infinity"
                     id="force-round-neg-infinity" />
-            <label for="force-round-neg-infinity">Round toward Negative Infinity </label>
+            <label for="force-round-neg-infinity">朝-∞方向舍入</label>
           </div>
         </fieldset>
 
