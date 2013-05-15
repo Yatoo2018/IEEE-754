@@ -1,4 +1,4 @@
-这个项目是 “[IEEE-754 Analyzers](http://babbage.cs.qc.cuny.edu/IEEE-754)” 网站的源代码。
+这个项目是 “IEEE-754 Analyzers(http://babbage.cs.qc.cuny.edu/IEEE-754)” 网站的源代码。
 
 最初是用来开发一个解析浮点数的学生项目。  
 用来帮助人们理解 IEEE-754 浮点数规范，并帮助开发者验证浮点数。
@@ -9,5 +9,6 @@
 学校: Queens College of CUNY  
 June, 2012（2012年6月）
 
-译者：[justjavac](http://justjavac.com)
+译者：justjavac
+网址：http://justjavac.com
 
