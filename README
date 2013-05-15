@@ -1,6 +1,4 @@
-这个项目是 “[IEEE-754 Analyzers][1]” 网站的源代码。
-
-[1]: http://babbage.cs.qc.cuny.edu/IEEE-754
+这个项目是 “[IEEE-754 Analyzers](http://babbage.cs.qc.cuny.edu/IEEE-754)” 网站的源代码。
 
 最初是用来开发一个解析浮点数的学生项目。  
 用来帮助人们理解 IEEE-754 浮点数规范，并帮助开发者验证浮点数。
